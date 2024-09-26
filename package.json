@@ -5,6 +5,7 @@
   "scripts": {
     "laptop": "cypress run --config viewportWidth=1920,viewportHeight=1080",
     "mobile": "cypress run --config viewportWidth=720,viewportHeight=1080",
+    "notebook": "cypress run --config vievportWidth=2560, viewportHeight=1440",
     "test:chrome:headless": "cypress run --browser chrome --headless",
     "test:chrome:headed": "cypress run --browser chrome --headed",
     "test:firefox:headless": "cypress run --browser firefox --headless",
